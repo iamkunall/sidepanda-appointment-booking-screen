@@ -1,0 +1,103 @@
+.calender-container {
+  background: #ebebf0;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.calender-text-wrapper {
+  margin-bottom: 20px;
+}
+
+.calender-service-title {
+  color: var(--Title-Color);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.25px;
+}
+
+.time-zone-text {
+  color: #555770;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.timezone-area-text {
+  color: #555770;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.react-calendar {
+  border: 1px solid #f2f2f5 !important;
+  border-radius: 8px;
+}
+
+.react-calendar__navigation {
+  border-bottom: 1px solid #f2f2f5;
+}
+
+.react-calendar__navigation__arrow {
+  color: var(--Primary-Color);
+  font-size: 20px;
+}
+
+.react-calendar__navigation__label__labelText,
+.react-calendar__navigation__label__labelText--from {
+  color: var(--Text-Color);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.react-calendar__month-view__weekdays__weekday {
+  color: var(--Primary-Color);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+abbr[title] {
+  text-decoration: none !important;
+}
+
+.react-calendar__tile {
+  color: var(--Text-Color);
+  font-family: Poppins !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+}
+
+.react-calendar__tile--now {
+  background-color: transparent !important;
+}
+
+.react-calendar__tile--active {
+  background-color: var(--Primary-Color) !important;
+  border-radius: 40px !important;
+}
+
+.react-calendar__month-view__days__day--weekend {
+  color: var(--Text-Color) !important;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth,
+.react-calendar__decade-view__years__year--neighboringDecade,
+.react-calendar__century-view__decades__decade--neighboringCentury {
+  color: var(--Text-Color) !important;
+}

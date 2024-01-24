@@ -1,13 +1,14 @@
-import './App.css';
+import { Header, Calendar } from './components';
 
-import { Header } from './components';
+import './App.css';
 
 function App() {
   return (
-    <div>
+    <div className="container">
       <Header />
-      <div className="container">
-        <h1>dsadsadas</h1>
+      <div className="home-container">
+        <Calendar />
+        <Calendar />
       </div>
     </div>
   );
