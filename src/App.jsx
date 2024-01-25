@@ -1,4 +1,4 @@
-import { Header, Calendar } from './components';
+import { Header, Calendar, TimeSlots } from './components';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div className="home-container">
         <Calendar />
-        <Calendar />
+        <TimeSlots />
       </div>
     </div>
   );
