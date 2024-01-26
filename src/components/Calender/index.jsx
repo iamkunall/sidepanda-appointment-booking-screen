@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import Calendar from 'react-calendar';
 
 import './calender.css';
-const CalendarComponent = () => {
-  const [value, onChange] = useState(new Date());
+const CalendarComponent = ({ value, onChange }) => {
   return (
     <div className="calender-container">
       <div className="calender-text-wrapper">

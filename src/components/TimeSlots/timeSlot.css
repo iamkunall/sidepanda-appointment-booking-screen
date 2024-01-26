@@ -3,8 +3,7 @@
   padding: 40px;
   background-color: #ffffff;
   border-radius: 0px 8px 0px 0px;
-  min-width:350px;
-;
+  min-width: 350px;
 }
 
 .variant-wrapper {
@@ -34,6 +33,7 @@
   background: #fafafc;
   color: var(--Primary-Color);
   width: 100%;
+  text-transform: uppercase;
 }
 
 .select-time-slot-button {
@@ -42,6 +42,11 @@
   background: transparent;
   border-color: var(--Primary-Color);
   transition: all ease-in 0.25s;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
 }
 
 .select-time-slot-button:hover {
@@ -51,4 +56,15 @@
 
 .select-time-slot-button:first-child {
   margin-top: 10px;
+}
+
+.time-slots-wrapper {
+  overflow-y: auto;
+  max-height: 30vh;
+}
+
+.selected-time-slot {
+  display: flex;
+  background-color: var(--Primary-Color) !important;
+  color: #ffffff;
 }
