@@ -30,20 +30,35 @@ p {
   justify-content: center;
   padding-top: 80px;
   min-height: 300px;
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
-
-.columns{
+.columns {
   display: flex;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
 }
 
-.first-column{
+.first-column {
   width: 20%;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
-.second-column{
-  width:60%;
+.second-column {
+  width: 60%;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
 
-.third-column{
+.third-column {
   width: 20%;
+  @media (max-width: 600px) {
+    width: 100%;
+  }
 }
