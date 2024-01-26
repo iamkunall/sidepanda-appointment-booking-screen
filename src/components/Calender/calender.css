@@ -89,17 +89,26 @@ abbr[title] {
   background-color: transparent !important;
 }
 
-.react-calendar__tile--active {
-  background-color: var(--Primary-Color) !important;
-  border-radius: 40px !important;
-}
+
 
 .react-calendar__month-view__days__day--weekend {
   color: var(--Text-Color) !important;
+}
+
+
+.react-calendar__tile--active {
+  background-color: var(--Primary-Color) !important;
+  border-radius: 40px !important;
+  color:#ffff !important;
 }
 
 .react-calendar__month-view__days__day--neighboringMonth,
 .react-calendar__decade-view__years__year--neighboringDecade,
 .react-calendar__century-view__decades__decade--neighboringCentury {
   color: var(--Text-Color) !important;
+}
+
+
+.react-calendar__tile:enabled:hover, .react-calendar__tile:enabled:focus {
+ border-radius: 100px;
 }

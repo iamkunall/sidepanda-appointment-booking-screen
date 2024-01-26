@@ -5,7 +5,14 @@ import './footer.css';
 const Footer = () => {
   return (
     <div className="footer-container">
-      <p className="footer-text">Powered By Appointo</p>
+      <a
+        className="footer-text"
+        href="https://apps.shopify.com/appointo-appointments-and-bookings"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Powered By <span className="organizationName"> Appointo</span>
+      </a>
       <button className="footer-next-button">
         Next{' '}
         <span className="footer-button-next">

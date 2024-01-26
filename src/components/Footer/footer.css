@@ -4,6 +4,7 @@
   border-radius: 0px 0px 8px 8px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer-text {
@@ -14,6 +15,11 @@
   font-weight: 600;
   line-height: 21px;
   text-transform: uppercase;
+  text-decoration: none !important;
+}
+
+.organizationName {
+  text-decoration: underline;
 }
 
 .footer-next-button {
