@@ -27,7 +27,7 @@ const TimeSlots = () => {
         </button>
         <button className="time-slot-variant-button select-time-slot-button">
           <p>03:30 AM - 04:00 AM</p>
-        </button>
+        </button>{' '}
       </div>
     </div>
   );

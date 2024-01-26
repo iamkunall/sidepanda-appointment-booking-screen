@@ -1,7 +1,8 @@
 .calender-container {
   background: #ebebf0;
   padding: 40px;
-  border-radius:8px 0px 0px 8px;
+  border-radius:8px 0px 0px 0px;
+
 }
 
 .calender-text-wrapper {
@@ -39,6 +40,7 @@
 .react-calendar {
   border: 1px solid #f2f2f5 !important;
   border-radius: 8px;
+  width: auto !important;
 }
 
 .react-calendar__navigation {

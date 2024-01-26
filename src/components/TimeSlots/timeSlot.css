@@ -1,8 +1,10 @@
 .time-slots-container {
-  width: 25%;
+  background: #ebebf0;
   padding: 40px;
   background-color: #ffffff;
-  border-radius: 8px;
+  border-radius: 0px 8px 0px 0px;
+  min-width:350px;
+;
 }
 
 .variant-wrapper {
@@ -47,6 +49,6 @@
   color: #ffffff;
 }
 
-.select-time-slot-button:first-child{
+.select-time-slot-button:first-child {
   margin-top: 10px;
 }

@@ -23,15 +23,27 @@ p {
 
 .container {
   width: 100%;
-  height: 80%;
-
 }
 
 .home-container {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
-  width: 100%;
-  /* height: 100%; */
   padding-top: 80px;
+  min-height: 300px;
+}
+
+
+.columns{
+  display: flex;
+}
+
+.first-column{
+  width: 20%;
+}
+.second-column{
+  width:60%;
+}
+
+.third-column{
+  width: 20%;
 }
