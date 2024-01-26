@@ -5,11 +5,12 @@ const useApi = () => {
   const [loading, setLoading] = useState();
 
   const fetchAvailableAppointments = async (date) => {
+    const endDate = dayjs(date).add(10, 'day').format('YYYY-MM-DD');
     setLoading(true);
     const res = await fetch(
       `https://app.appointo.me/scripttag/mock_timeslots?start_date=${dayjs(
         date,
-      ).format('YYYY-MM-DD')}`,
+      ).format('YYYY-MM-DD')}&end_date=${endDate}`,
     )
       .then((response) => response.json())
       .then((data) => {
